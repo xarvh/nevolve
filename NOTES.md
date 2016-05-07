@@ -1,4 +1,11 @@
 
+Commands:
+  - Thrust angle, force
+  - RotateFormation torque
+  - A Trigger
+  - B Trigger
+
+
 Player Ship:
 - It has a unique Core part: if it is destroyed, the ship is destroyed
 - The Core is the only part that doesn't need to be attached anywhere
@@ -18,6 +25,7 @@ Player Ship:
   * Disconnector A (when player presses A, it breaks shooting children and parent apart)
   * Disconnector B (when player presses B, it breaks shooting children and parent apart)
   ? Reproduction part (using available Energy builds up X where X is what is used to continue the game if the current ship is destroyed)
+  * Connector part (modifies angle and distance of the Ship inside the formation according to its position relative to the Core)
 
 
 Generations:
@@ -25,8 +33,6 @@ Generations:
 - When the last Ship of a Generation is destroyed, a new Generation of Ships are spawned, depending on how much X was produced by the previous generation.
 - There is a maximum number of ships in the new Generation, any excess X is used to push the new Ship's development forward.
 - The Ships stay in formation and execute the same commands.
-
-
 
 
 Evo-Devo:
