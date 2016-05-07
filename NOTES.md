@@ -20,10 +20,16 @@ Player Ship:
   ? Reproduction part (using available Energy builds up X where X is what is used to continue the game if the current ship is destroyed)
 
 
+Generations:
+- Ships are always spawned in batches, called Generations.
+- When the last Ship of a Generation is destroyed, a new Generation of Ships are spawned, depending on how much X was produced by the previous generation.
+- There is a maximum number of ships in the new Generation, any excess X is used to push the new Ship's development forward.
+- The Ships stay in formation and execute the same commands.
 
 
 
-Evolution:
+
+Evo-Devo:
 - Many cells connected to each other
 ? How are new cells built?
 - Each cell has different concentration of a set of substances
