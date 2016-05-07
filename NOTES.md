@@ -48,8 +48,9 @@ Cells geometry and appearance
 - A Ship's body is made of Cells
 - Each Cell is modelled as two triangles: each side of the triangle represents a linear constraint on the cell's shape
 - A Cell splits along the line between the two vertexes that are not shared between the two triangles
-- Each triangle has forces acting upon it that prevent it from having obtuse angles
 - A Cell's rendering does not have to match the Cell geometrical model
+- Each Cell has a Plasticity value, which describes how much the Cell linear constraints will adjust to its current shape
+- Each Cell has a Strength value, which modifies the strength of its linear constraints
 
 
 
