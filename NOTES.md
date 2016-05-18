@@ -1,4 +1,5 @@
 
+
 Commands:
   - Thrust angle, force
   - RotateFormation torque
@@ -33,6 +34,11 @@ Generations:
 - When the last Ship of a Generation is destroyed, a new Generation of Ships are spawned, depending on how much X was produced by the previous generation.
 - There is a maximum number of ships in the new Generation, any excess X is used to push the new Ship's development forward.
 - The Ships stay in formation and execute the same commands.
+
+? Parallel generations: when one ship is destroyed, a new one is spawned by crossing two surviving ones
+? If all are destroyed, maybe respawn a new generation?
+
+
 
 
 Evo-Devo:
